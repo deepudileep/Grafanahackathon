@@ -97,40 +97,130 @@
          "status":"Delivered"
       }
    ],
-   "warehouses": [
+   "warehouses":[
       {
-        "warehouse_id": "WH-001",
-        "warehouse_name": "Stockholm DC",
-        "region": "North Sweden",
-        "type": "primary",
-        "latitude": 59.4,
-        "longitude": 17.9
+         "warehouse_id":"WH-001",
+         "warehouse_name":"Stockholm DC",
+         "region":"North Sweden",
+         "type":"primary",
+         "latitude":59.4,
+         "longitude":17.9
       },
       {
-        "warehouse_id": "WH-002",
-        "warehouse_name": "Gothenburg DC",
-        "region": "West Sweden",
-        "type": "secondary",
-        "latitude": 57.7,
-        "longitude": 12
+         "warehouse_id":"WH-002",
+         "warehouse_name":"Gothenburg DC",
+         "region":"West Sweden",
+         "type":"secondary",
+         "latitude":57.7,
+         "longitude":12
       },
       {
-        "warehouse_id": "WH-003",
-        "warehouse_name": "Malmö DC",
-        "region": "South Sweden",
-        "type": "secondary",
-        "latitude": 55.6,
-        "longitude": 13
+         "warehouse_id":"WH-003",
+         "warehouse_name":"Malmö DC",
+         "region":"South Sweden",
+         "type":"secondary",
+         "latitude":55.6,
+         "longitude":13
       },
       {
-        "warehouse_id": "WH-004",
-        "warehouse_name": "Hamburg Global DC",
-        "region": "Central Europe",
-        "type": "global",
-        "latitude": 53.6,
-        "longitude": 10
+         "warehouse_id":"WH-004",
+         "warehouse_name":"Hamburg Global DC",
+         "region":"Central Europe",
+         "type":"global",
+         "latitude":53.6,
+         "longitude":10
       }
-    ]
+   ],
+   "warehouse_supply_risk_weekly":[
+      {
+         "warehouse_id":"WH-001",
+         "sku_id":"SKU-007",
+         "week_start":"2025-12-01",
+         "warehouse_forecast_qty":180,
+         "on_hand_qty":500,
+         "ordered_qty":900,
+         "delivered_qty_to_date":850,
+         "expected_delivery_date":"2025-10-12",
+         "actual_delivery_date":"2025-10-18",
+         "delay_days":6,
+         "under_delivery_pct":0.056,
+         "supply_risk_score":50,
+         "supply_risk_label":"MEDIUM"
+      },
+      {
+         "warehouse_id":"WH-001",
+         "sku_id":"SKU-007",
+         "week_start":"2025-12-08",
+         "warehouse_forecast_qty":150,
+         "on_hand_qty":500,
+         "ordered_qty":900,
+         "delivered_qty_to_date":850,
+         "expected_delivery_date":"2025-10-12",
+         "actual_delivery_date":"2025-10-18",
+         "delay_days":6,
+         "under_delivery_pct":0.056,
+         "supply_risk_score":50,
+         "supply_risk_label":"MEDIUM"
+      },
+      {
+         "warehouse_id":"WH-002",
+         "sku_id":"SKU-007",
+         "week_start":"2025-12-01",
+         "warehouse_forecast_qty":200,
+         "on_hand_qty":700,
+         "ordered_qty":1000,
+         "delivered_qty_to_date":900,
+         "expected_delivery_date":"2025-10-15",
+         "actual_delivery_date":"2025-11-01",
+         "delay_days":17,
+         "under_delivery_pct":0.10,
+         "supply_risk_score":65,
+         "supply_risk_label":"HIGH"
+      },
+      {
+         "warehouse_id":"WH-002",
+         "sku_id":"SKU-008",
+         "week_start":"2025-12-01",
+         "warehouse_forecast_qty":120,
+         "on_hand_qty":450,
+         "ordered_qty":600,
+         "delivered_qty_to_date":580,
+         "expected_delivery_date":"2025-10-18",
+         "actual_delivery_date":"2025-10-19",
+         "delay_days":1,
+         "under_delivery_pct":0.033,
+         "supply_risk_score":20,
+         "supply_risk_label":"LOW"
+      },
+      {
+         "warehouse_id":"WH-003",
+         "sku_id":"SKU-007",
+         "week_start":"2025-12-01",
+         "warehouse_forecast_qty":160,
+         "on_hand_qty":600,
+         "ordered_qty":800,
+         "delivered_qty_to_date":750,
+         "expected_delivery_date":"2025-10-20",
+         "actual_delivery_date":"2025-10-25",
+         "delay_days":5,
+         "under_delivery_pct":0.0625,
+         "supply_risk_score":40,
+         "supply_risk_label":"MEDIUM"
+      },
+      {
+         "warehouse_id":"WH-004",
+         "sku_id":"SKU-007",
+         "week_start":"2025-12-01",
+         "warehouse_forecast_qty":0,
+         "on_hand_qty":3000,
+         "ordered_qty":3200,
+         "delivered_qty_to_date":3000,
+         "expected_delivery_date":"2025-10-10",
+         "actual_delivery_date":"2025-11-05",
+         "delay_days":26,
+         "under_delivery_pct":0,
+         "supply_risk_score":55,
+         "supply_risk_label":"MEDIUM"
+      }
+   ]
 }
-
-
