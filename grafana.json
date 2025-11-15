@@ -1,0 +1,135 @@
+{
+    "warehouses": [
+      {
+        "warehouse_id": "WH-001",
+        "warehouse_name": "Stockholm DC",
+        "region": "North Sweden",
+        "type": "primary",
+        "latitude": 59.4,
+        "longitude": 17.9
+      },
+      {
+        "warehouse_id": "WH-002",
+        "warehouse_name": "Gothenburg DC",
+        "region": "West Sweden",
+        "type": "secondary",
+        "latitude": 57.7,
+        "longitude": 12
+      },
+      {
+        "warehouse_id": "WH-003",
+        "warehouse_name": "Malmö DC",
+        "region": "South Sweden",
+        "type": "secondary",
+        "latitude": 55.6,
+        "longitude": 13
+      },
+      {
+        "warehouse_id": "WH-004",
+        "warehouse_name": "Hamburg Global DC",
+        "region": "Central Europe",
+        "type": "global",
+        "latitude": 53.6,
+        "longitude": 10
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_id": "PO-001",
+        "supplier_id": "SUP-001",
+        "warehouse_id": "WH-001",
+        "sku_id": "SKU-001",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-15",
+        "ordered_qty": 2000,
+        "actual_delivery_date": "2025-10-20",
+        "delivered_qty": 2000,
+        "status": "Delivered"
+      },
+      {
+        "po_id": "PO-002",
+        "supplier_id": "SUP-001",
+        "warehouse_id": "WH-001",
+        "sku_id": "SKU-002",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-15",
+        "ordered_qty": 1800,
+        "actual_delivery_date": "2025-11-01",
+        "delivered_qty": 1750,
+        "status": "Partial"
+      },
+      {
+        "po_id": "PO-003",
+        "supplier_id": "SUP-001",
+        "warehouse_id": "WH-002",
+        "sku_id": "SKU-001",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-20",
+        "ordered_qty": 1500,
+        "actual_delivery_date": "2025-11-20",
+        "delivered_qty": 1500,
+        "status": "Delayed"
+      },
+      {
+        "po_id": "PO-004",
+        "supplier_id": "SUP-001",
+        "warehouse_id": "WH-003",
+        "sku_id": "SKU-003",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-25",
+        "ordered_qty": 1600,
+        "actual_delivery_date": "2025-10-26",
+        "delivered_qty": 1600,
+        "status": "Delivered"
+      },
+      {
+        "po_id": "PO-005",
+        "supplier_id": "SUP-002",
+        "warehouse_id": "WH-004",
+        "sku_id": "SKU-001",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-10",
+        "ordered_qty": 5000,
+        "actual_delivery_date": "2025-11-20",
+        "delivered_qty": 4600,
+        "status": "Partial"
+      },
+      {
+        "po_id": "PO-006",
+        "supplier_id": "SUP-002",
+        "warehouse_id": "WH-004",
+        "sku_id": "SKU-002",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-10",
+        "ordered_qty": 4500,
+        "actual_delivery_date": "2025-10-25",
+        "delivered_qty": 4500,
+        "status": "Delivered"
+      },
+      {
+        "po_id": "PO-007",
+        "supplier_id": "SUP-002",
+        "warehouse_id": "WH-004",
+        "sku_id": "SKU-003",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-10",
+        "ordered_qty": 4000,
+        "actual_delivery_date": "2025-11-05",
+        "delivered_qty": 3800,
+        "status": "Partial"
+      },
+      {
+        "po_id": "PO-008",
+        "supplier_id": "SUP-002",
+        "warehouse_id": "WH-004",
+        "sku_id": "SKU-004",
+        "order_date": "2025-05-01",
+        "expected_delivery_date": "2025-10-10",
+        "ordered_qty": 4200,
+        "actual_delivery_date": "2025-10-15",
+        "delivered_qty": 4200,
+        "status": "Delivered"
+      }
+    ]
+  }
+  
