@@ -9,10 +9,3 @@ PO-007,SUP-002,WH-004,SKU-003,5/1/2025,10/10/2025,4000,11/5/2025,3800,Partial
 PO-008,SUP-002,WH-004,SKU-004,5/1/2025,10/10/2025,4200,10/15/2025,4200,Delivered
 
 
-
-
-warehouse_id	warehouse_name	region	type	latitude	longitude
-WH-001	Stockholm DC	North Sweden	primary	59.4	17.9
-WH-002	Gothenburg DC	West Sweden	secondary	57.7	12
-WH-003	Malmö DC	South Sweden	secondary	55.6	13
-WH-004	Hamburg Global DC	Central Europe	global	53.6	10
