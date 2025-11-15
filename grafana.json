@@ -96,5 +96,40 @@
          "delivered_qty":4200,
          "status":"Delivered"
       }
-   ]
+   ],
+   "warehouses": [
+      {
+        "warehouse_id": "WH-001",
+        "warehouse_name": "Stockholm DC",
+        "region": "North Sweden",
+        "type": "primary",
+        "latitude": 59.4,
+        "longitude": 17.9
+      },
+      {
+        "warehouse_id": "WH-002",
+        "warehouse_name": "Gothenburg DC",
+        "region": "West Sweden",
+        "type": "secondary",
+        "latitude": 57.7,
+        "longitude": 12
+      },
+      {
+        "warehouse_id": "WH-003",
+        "warehouse_name": "Malmö DC",
+        "region": "South Sweden",
+        "type": "secondary",
+        "latitude": 55.6,
+        "longitude": 13
+      },
+      {
+        "warehouse_id": "WH-004",
+        "warehouse_name": "Hamburg Global DC",
+        "region": "Central Europe",
+        "type": "global",
+        "latitude": 53.6,
+        "longitude": 10
+      }
+    ]
 }
+
