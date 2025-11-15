@@ -10,7 +10,7 @@
             "ordered_qty": 2006,
             "actual_delivery_date": "2025-11-09",
             "delivered_qty": 1994,
-            "status": "Partial"
+            "status": "Delayed"
         },
         {
             "po_id": "PO-0002",
@@ -418,7 +418,7 @@
             "ordered_qty": 4216,
             "actual_delivery_date": "2025-09-13",
             "delivered_qty": 4359,
-            "status": "Delivered"
+            "status": "Delayed"
         },
         {
             "po_id": "PO-0036",
@@ -27038,3 +27038,4 @@
         }
     ]
 }
+
